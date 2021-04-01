@@ -1,0 +1,75 @@
+#formContainer{
+    margin: 30px;
+    border: 2px solid black;
+    padding: 60px;
+    
+}
+#formContainer *{
+    font-size: large;
+    font-weight: 500;
+}
+form div{
+    margin: 20px 10px;
+}
+#textInputs input{
+    display: inline-block;
+    border: 2px solid red;
+    margin: 15px 0 0 0;
+    width: 100%;
+    height:30px;
+    outline: none;
+}
+.errorText {
+    margin: 0 0 10px 0;
+    color: red;
+    font-size: smaller !important;
+}
+#radioButtons label{
+    font-size: large;
+    margin-right: 20px;
+}
+#locationSelector select{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    border: 2px solid red;
+    outline: none;
+}
+#skills label{
+    display: inline-block;
+    width: 33%;
+    margin: 10px 0;
+}
+
+#upload input{
+    border: 2px solid red;
+    outline: none;
+}
+#comment textarea{
+    width: 100%;
+    height:150px;
+    font-size: x-large;
+    margin:40px 0 0 0;
+    border: 2px solid red;
+    outline: none;
+}
+#buttons{
+    margin-top: 40px;
+}
+#submit{
+    margin-right: 15px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#reset{
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
